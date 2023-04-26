@@ -40,12 +40,3 @@ class MenuBuilder:
                 data["price"].append(dish.price)
                 data["restrictions"].append(dish.get_restrictions())
         return pd.DataFrame(data)
-        # if restriction == None:
-        #     for dish in dishes:
-        #         print('dish_name', dish.name)
-        #         print('ingredients', dish.get_ingredients())
-        #         print('price', dish.price)
-        #         print('restrictions', dish.get_restrictions())
-
-
-        # print('restriction \n\n\n', restriction)
